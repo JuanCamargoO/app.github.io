@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Spare Parts Quotation</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<style type="text/css">
+body {
+	background-image: url(background.jpg);
+	margin-left: 0%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+}
+body,td,th {
+	color: #FFF;
+}
+</style>
+</head>
+<body>
+<header>
+<img src="logo.png" alt="Logo" width="100%">
+<h1>Spare Parts Quotation</h1>
+<p>Get a quote for your spare parts today!</p>
+</header>
+<main>
+<form action="pmasanm.php" method="post" enctype="multipart/form-data">
+<input type="file" name="photos[]" multiple>
+<input type="text" name="product_details" placeholder="Detalles">
+<input type="text" name="car_brand" placeholder="Marca de auto">
+<input type="text" name="car_model" placeholder="Modelo de auto">
+<input type="text" name="car_year" placeholder="Año">
+<input type="text" name="product_code" placeholder="Serie del Producto">
+<input type="text" name="name" placeholder="Nombre">
+<input type="text" name="surname" placeholder="Apellido">
+<input type="text" name="phone_number" placeholder="Teléfono">
+<input type="email" name="email" placeholder="Email">
+<input type="submit" value="Enviar">
+</form>
+</main>
+<footer>
+<p>Copyright &copy; 2023</p>
+</footer>
+</body>
+</html>
+
